@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <title>Hexal</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/main.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header id="header" class="header">
+        <div class="main-header">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6 offset-md-3">
+                        <nav>
+                            <ul class="menu d-flex justify-content-between">
+                                <li class="menu__item">
+                                    <a href="">portfolio</a>
+                                </li>
+
+                                <li class="menu__item">
+                                    <a href="">about</a>
+                                </li>
+
+                                <li class="menu__item">
+                                    <a href="">blog</a>
+                                </li>
+
+                                <li class="menu__item">
+                                    <a href="">get in touch</a>
+                                </li>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header> 
+
+    <section id="slider" class="slider">
+        <div class="container-fluid">
+            <div id="carouselExampleIndicators" class="carousel slide">
+                <div class="carousel-indicators">
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="img/biznes1.jpg" class="d-block w-100" alt="Foto1">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="img/biznes2.jpg" class="d-block w-100" alt="Foto2">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="img/biznes3.jpg" class="d-block w-100" alt="Foto3">
+                  </div>
+                </div>
+              </div>
+        </div>
+    </section>
+
+    <section id="interview" class="interview">
+        <div class="photo">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-3">
+                        <img src="img/girl1.jpg" alt="Girl1" class="round">
+                    </div>
+
+                    <div class="col-md-9">
+                        <p class="username">Smith Anderson</p>
+                        <p class="position">Illustartor & Character Designer</p>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis quia odio amet quo autem vitae aperiam doloremque fuga dicta libero temporibus repellendus, excepturi nobis tenetur ullam facere, ratione deserunt. Recusandae.</p>
+                        <div class="row">
+                            <div class="col-md-6 ms-auto">
+                                <div class="social google-pluse">
+                                    <a href="#" target="_blank"><i class="fa fa-google-plus fa-2x"></i></a>
+                                </div>
+                                <div class="social twitter">
+                                    <a href="#" target="_blank"><i class="fa fa-twitter fa-2x"></i></a>
+                                </div>
+                                <div class="social facebook">
+                                    <a href="#" target="_blank"><i class="fa fa-facebook fa-2x"></i></a>    
+                                </div>
+                                <div class="social pinterest">
+                                    <a href="#" target="_blank"><i class="fa fa-pinterest fa-2x"></i></a>
+                                </div> 
+                                <div class="social linkedin">
+                                    <a href="#" target="_blank"><i class="fa fa-linkedin fa-2x"></i></a>
+                                </div>
+                                <div class="social dropbox">
+                                    <a href="#" target="_blank"><i class="fa fa-dropbox fa-2x"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="form" class="form">
+        <div class="main-form">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6">
+                        <p class="text-form">Get in Touch</p>
+                        <p>In order to get in touch use the contact form below:</p>
+                        
+                        <form id="main-form" method="post" onsubmit='return Sprawdz(this);'>
+                            <div class="field">
+                            <input type="text"  name="imie" placeholder="Name (Required)" id="name" size="50"><br><br>
+                            </div>
+
+                            <div class="field">
+                            <input type="email" name="email" placeholder="Email (Required)" id="email" size="50"><br><br>
+                            </div>
+
+                            <div class="field">
+                            <input type="text" name="subject" maxlength="60" placeholder="Subject" id="subject" size="50"><br><br>
+                            </div>
+
+                            <div class="field">
+                            <textarea rows="5" cols="45" name="text" size="50" id="text">Write your message here...</textarea><br><br>
+                            </div>
+
+                            <input type="submit" name="submit" id="submit" value="SEND">
+                        </form>
+                    </div>
+                    <div class="col-md-4">
+                        <p><b>Quisque Hendrerit:</b> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consequuntur nobis dolorum quasi veniam repellendus ipsam in incidunt beatae, expedita consectetur voluptas fuga est molestiae? Nulla ex eos vero consequatur at!</p>
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-md-1">
+                                    <img class="icons" src="icons/place.png" alt="place">
+                                    <img class="icons" src="icons/tel.png" alt="telefon">
+                                    <img class="icons" src="icons/message.png" alt="message">
+                                </div>
+
+                                <div class="col-md-7">
+                                    <p class="contact">Elm St. 14/05 Lost City</p>
+                                    <p class="contact">+3528 331 86 35</p>
+                                    <p class="contact">info@hexalcorp.com</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class=".col-md-1 offset-md-1">
+            &copy; Copyright 2013 by PSDchat
+        </div>
+    </footer>
+<script src="js/main.js"></script>
+</body>
+</html>

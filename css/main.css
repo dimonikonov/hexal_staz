@@ -1,0 +1,103 @@
+@import url(https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css);
+
+body {
+    color: white;
+}
+
+ul, li {
+    display: block;
+    padding: 0;
+    margin: 0;
+}
+
+.menu__item a {
+    color: white;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #2eb398;
+}
+
+.main-header {
+    padding: 24px 0;
+    background-color: #323232;
+}
+
+.photo {
+    padding: 24px 0;
+    background-color: #2eb398;
+}
+
+.round {
+    border-radius: 50%;
+    width: 200px;
+}
+
+.username {
+    font-size: 35px;
+    margin: 0;
+}
+
+.position {
+    color: #24957f;
+    font-size: 20px;
+}
+
+.social a {
+    text-align: center;
+    width: 48px;
+    height: 48px;
+    float: left;
+    background-color: #a4dbd4;
+    border: 1px solid #ccc;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.15), inset 0 0 50px rgba(0,0,0,0.1);
+    margin: 0 2px 2px 0;
+    padding: 6px;
+    color: #000;
+}
+
+.google-pluse a:hover {background: #DD4B39; color: #fff;}
+.twitter a:hover {background: #00acee; color: #fff;}
+.facebook a:hover {background: #3b5998; color: #fff;}
+.pinterest a:hover {background: #c8232c; color: #fff;}
+.linkedin a:hover {background: #0e76a8; color: #fff;}
+.dropbox a:hover {background: #1087dd; color: #fff;}
+
+.main-form {
+    background-color: #323232;
+    padding: 24px 0;
+}
+
+#name, #email, #subject, #text {
+    background-color: #454545;
+}
+
+#text {
+    color: gray;
+}
+
+#submit {
+    background-color: #24957f;
+    color: white;
+}
+
+.text-form {
+    font-size: 35px;
+    margin: 0;
+}
+
+footer { 
+    background-color: #262626;
+    color: gray;
+}
+
+.icons {
+    width: 25px;
+    margin-top: 15px;
+}
+
+.contact {
+    margin-top: 15px;
+}
